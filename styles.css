@@ -3,7 +3,12 @@
 }
 
 /* NAVBAR-Cookbook */
-
+nav {
+  background-color: #bea987;
+}
+.nav-item a {
+  color: black;
+}
 /* Hero */
 
 /* About */

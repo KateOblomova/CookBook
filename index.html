@@ -16,7 +16,42 @@
   <body>
     <!-- NAVBAR-Cookbook -->
     <header>
-      <nav></nav>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <img
+            src="./img/logo_white.png"
+            alt="Bootstrap"
+            width="90"
+            height="54"
+          />
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cousine
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Asia</a></li>
+                <li><a class="dropdown-item" href="#">Est Europe</a></li>
+                <li><a class="dropdown-item" href="#">South America</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <section id="hero-section"></section>
     </header>
     <main>
@@ -30,5 +65,11 @@
       <!-- Contact -->
       <section id="contact-footer"></section>
     </footer>
+    <!-- JS Bootstrap Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
