@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+ margin: 0; 
 }
 
 /* NAVBAR-Cookbook */
@@ -11,3 +11,42 @@
 /* Cuisine */
 
 /* Contact */
+
+.footer-container-fluid{
+background-color: #BEA987;
+height: 350px;
+font-weight: 900;
+}
+.footer-row{
+  border: 0px solid red;
+  text-align: center;
+  height: 33.33%;
+}
+.footer-col{
+  border: 0px solid white;
+}
+.footer-col button{
+  padding: 15px 15px;
+  width: 20%;
+  background: transparent;
+  border-radius: 25px;
+  margin: 30px;
+  background-color: #9CAE67;
+  color: black;
+  border: none;
+  font-weight: 800;
+  font-size: large;
+  font-stretch:wider;
+  cursor: pointer;
+}
+.footer-col button:hover{
+ background: transparent;
+}
+.footer-col img{
+  margin-top: 30px;
+  padding: 5px 5px;
+}
+.footer-col p{
+  margin-top: 30px;
+  color: black;
+}
