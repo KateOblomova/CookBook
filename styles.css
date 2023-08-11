@@ -277,6 +277,11 @@ main h2 {
 #ingridients-header {
   padding-left: 4%;
 }
+.ingridients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #directions {
   margin: 0 5% 5% 5%;
