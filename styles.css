@@ -229,3 +229,157 @@ main h2 {
 .footer-col-2 img {
   border-radius: 5px;
 }
+
+/*Recipe page */
+.row-1-container {
+  margin-top: 5%;
+}
+#chef-text {
+  margin-top: 5%;
+  font-size: large;
+}
+.chef-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+}
+.chef-img-container {
+  display: flex;
+  justify-content: center;
+}
+.span-line-col {
+  display: flex;
+  justify-content: center;
+  background-color: #9cae67;
+  height: 2px;
+  margin: 8%;
+  border-radius: 2%;
+}
+/* Recipe*/
+#dish-name {
+  text-align: center;
+}
+.dish-name-container {
+  margin-bottom: 5%;
+}
+#recipe-img-container {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recipe-img-col {
+  height: 300px;
+  width: 400px;
+  border-radius: 15%;
+}
+#ingridients-header {
+  padding-left: 4%;
+}
+.ingridients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#directions {
+  margin: 0 5% 5% 5%;
+  font-size: large;
+  line-height: 2em;
+  padding: 0%;
+}
+#direction-header {
+  margin-left: 5%;
+  padding: 0%;
+}
+.recipe-img-col-dessert {
+  width: 300px;
+  height: 350px;
+  border-radius: 15%;
+}
+
+/* Querries */
+
+@media (max-width: 1270px) {
+  #directions {
+    margin: 0;
+    margin-bottom: 5%;
+    padding: 0%;
+  }
+  #direction-header {
+    margin: 0%;
+    margin-bottom: 3%;
+    padding: 0%;
+  }
+}
+@media (max-width: 990px) {
+  #chef-text {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  #raiza {
+    text-align: center;
+  }
+  #costa {
+    text-align: center;
+  }
+  #recipe-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ingridients-header {
+    padding: 0;
+    text-align: center;
+    margin: 5%;
+  }
+  #direction-header {
+    text-align: center; /*???*/
+  }
+  .dish-name-container {
+    margin: 0;
+  }
+}
+@media (max-width: 450px) {
+  .chef-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .recipe-img-col {
+    max-width: 250px;
+    max-height: 200px;
+  }
+  .recipe-img-col-dessert {
+    max-height: 250px;
+    max-width: 200px;
+  }
+  #recipe-img-container {
+    max-height: 250px;
+  }
+
+  #directions {
+    text-align: center;
+  }
+}
+@media (max-width: 770) {
+}
+
+#maindish .container-fluid{
+  margin: 0;
+}
+.row .main-dish{
+  justify-content: center;
+  text-align: center;
+  margin-bottom:3%;
+}
+#main-dish-row{
+  align-self: center;
+  justify-content: center;
+  background-color: black;
+  height: 1px;
+  width: 90%;
+  margin: 3%;
+}
+
