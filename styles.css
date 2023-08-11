@@ -365,3 +365,21 @@ main h2 {
 }
 @media (max-width: 770) {
 }
+
+#maindish .container-fluid{
+  margin: 0;
+}
+.row .main-dish{
+  justify-content: center;
+  text-align: center;
+  margin-bottom:3%;
+}
+#main-dish-row{
+  align-self: center;
+  justify-content: center;
+  background-color: black;
+  height: 1px;
+  width: 90%;
+  margin: 3%;
+}
+
